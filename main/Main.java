@@ -6,7 +6,8 @@ import maze.Field;
 public class Main {
     public static void main(String[] args) 
     {
-      System.out.print("\033[H\033[2J");  
+      // FindPath
+      System.out.print("\033[H\033[2J");   
       System.out.flush();  
       System.out.println("Načítanie vstupu: \n   1. konzola\n   2. txt súbor\n\nZvoľte možnosť:");
       Scanner scan_ = new Scanner(System.in);
